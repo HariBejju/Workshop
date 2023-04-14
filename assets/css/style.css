@@ -305,6 +305,10 @@ footer a {
 .nav_navbar{
     display: flex;
     align-items: center;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    
     justify-content: space-around;
     padding: 12px;
     background-color: white;
@@ -382,6 +386,10 @@ footer a {
         
         /* APPLYING MEDIA QUERIES */
         @media (max-width: 768px) {
+            .nav_navbar{
+                position: static;
+
+            }
         .navs_menu {
         display:none;
         position: absolute;
@@ -389,9 +397,10 @@ footer a {
         z-index: 1;
         right: 0;
         left: 0;
-        top: 60px;
+        top:60px;
         text-align: center;
         padding: 16px 0;
+        color: black;
         
         }
         
@@ -457,6 +466,7 @@ footer a {
         display: flex;
         flex-direction: column;
         height: 300px;
+
     }
 
     .ic {
