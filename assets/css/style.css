@@ -7,6 +7,7 @@
     
 }
 
+/* hero styling starts */
 
 .hero{
     /* background-color: aquamarine; */
@@ -123,22 +124,23 @@
     }
     .left{
         width: 90%;
+        height: 450px;
         position: relative;
         left: -10px;
         
     }
     .left1{
         text-align: center;
-        height: 50px; 
+        /* height: 50px;  */
     }
     .left2{
         width: 100%;
         font-size: 15px;
         text-align: left;
-        height: 110px;
+        /* height: 110px; */
     }
     .left3{
-        height: 140px;
+        /* height: 140px; */
         width: 100%;
         text-align: left;
         font-size: 18px;
@@ -150,15 +152,19 @@
     }
     .button{
         width: 97%;
+        height: 50px;
         
     }
     .email{
+        height: 50px;
         width: 96%;
         padding-left: 10px;
         margin: auto;
         margin-bottom: 10px;
     }
   }
+
+  /* hero styling ends */
   
   
 
