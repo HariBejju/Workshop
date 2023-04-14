@@ -114,6 +114,10 @@
 
 
 @media only screen and (max-width: 480px) {
+    .hero{
+        margin-bottom: 20px;
+        top:80px;
+    }
     .right{
         display: none;
     }
@@ -125,13 +129,16 @@
     }
     .left1{
         text-align: center;
+        height: 50px; 
     }
     .left2{
         width: 100%;
         font-size: 15px;
         text-align: left;
+        height: 110px;
     }
     .left3{
+        height: 140px;
         width: 100%;
         text-align: left;
         font-size: 18px;
